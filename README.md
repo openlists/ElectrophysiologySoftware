@@ -19,74 +19,91 @@ The following are general purpose platforms, with functionality including: loadi
 ### MNE
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
+
+MNE is a general purpose tool for processing, analyzing and visualizing M/EEG data. 
 
 [HomePage](http://martinos.org/mne/stable/index.html) - 
 [Github](https://github.com/mne-tools/mne-python) - 
 [Paper](https://doi.org/10.1016/j.neuroimage.2013.10.027)
-
-MNE is a general purpose tool for processing, analyzing and visualizing M/EEG data. 
 
 ### FieldTrip
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
+FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG data. 
+
 [HomePage](http://www.fieldtriptoolbox.org) - 
 [Github](https://github.com/fieldtrip/fieldtrip) - 
 [Paper](https://doi.org/10.1155/2011/156869)
-
-FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG data. 
 
 ### BrainStorm
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
+BrainStorm is a general purpose tool for processing, analyzing and visualizing focused primarily on MEG data, but includes support for EEG & ECoG data. 
+
 [HomePage](https://neuroimage.usc.edu/brainstorm/) - 
 [Github](https://github.com/brainstorm-tools/brainstorm3) - 
 [Paper](https://doi.org/10.1155/2011/879716)
-
-BrainStorm is a general purpose tool for processing, analyzing and visualizing focused primarily on MEG data, but includes support for EEG & ECoG data. 
 
 ### EEGLab
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
+EEGLab is a general purpose tool for processing, analyzing and visualizing EEG data.
+
 [HomePage](https://sccn.ucsd.edu/eeglab/index.php) - 
 [Paper](https://doi.org/10.1016/j.jneumeth.2003.10.009)
-
-EEGLab is a general purpose tool for processing, analyzing and visualizing EEG data.
 
 ### Wonambi
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
+Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis. 
+
 [HomePage](https://wonambi-python.github.io) - 
 [Github](https://github.com/wonambi-python/wonambi)
 
-Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis. 
+### NeuroKit
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+NeuroKit is a tool for neurophysiological signal processing.
+
+[HomePage](http://neurokit.readthedocs.io/en/latest/) - 
+[Github](https://github.com/neuropsychology/NeuroKit.py)
 
 ### NutMEG
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
+NutMEG is a general purpose tool for processing, analyzing and visualizing MEG data.
+
 [HomePage](https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage) - 
 [Github](https://github.com/UCSFBiomagneticImagingLab/nutmeg) - 
 [Paper](https://doi.org/10.1155/2011/758973)
-
-NutMEG is a general purpose tool for processing, analyzing and visualizing MEG data.
 
 ### EEGUtils
 
 ![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
 
+EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG data.
+
 [HomePage](https://craddm.github.io/eegUtils/) - 
 [Github](https://github.com/craddm/eegUtils)
 
-EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG data.
+### CarTool
+
+![Language](https://img.shields.io/badge/Language-C++-green.svg)
+
+CarTool is an EEG analysis toolbox.
+
+[HomePage](https://sites.google.com/site/cartoolcommunity/) - 
+[Paper](https://doi.org/10.1155/2011/813870)
 
 ## Standalone Tools - Specific Purposes
 
@@ -161,25 +178,41 @@ Phase Opposition is a collection of functions for calculating phase opposition m
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
+PyEEG includes some implementations of information theoretic and complexity related measures for neural time series. 
+
 [Github](https://github.com/forrestbao/pyeeg) - 
 [Paper](https://doi.org/10.1155/2011/406391)
 
-PyEEG includes some implementations of information theoretic and complexity related measures for neural time series. 
+### ADAM - Amsterdam Decoding and Modeling Toolbox
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+The Amsterdam Decoding and Modeling Toolbox does encoding and decoding model analysis on M/EEG data. 
+
+[Github](https://github.com/fahrenfort/ADAM) - 
+[Paper](https://doi.org/10.1007/s12021-013-9186-1
+
+### HERMES
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+HERMES is tool for estimating connectivity measures between M/EEG signals. 
+
+[HomePage](http://hermes.ctb.upm.es) - 
+[Github](https://github.com/guiomar/HERMES) - 
+[Paper](https://doi.org/10.3389/fnins.2018.00368)
+
+### ECoGTools
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+A collection of tools for analyzing ECoG data. 
+
+[Github](https://github.com/choldgraf/ecogtools)
 
 ## PlugIns
 
 The following are some plug-ins, designed primary for use with one of the aforementioned general purpose tools. 
-
-### PREP Pipeline (Standardized EEG pre-processing)
-
-![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
-![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
-
-The PREP pipeline is a standardized processing tool for EEG data, using EEGLab. 
-
-[HomePage](http://vislab.github.io/EEG-Clean-Tools/) - 
-[Github](https://github.com/VisLab/EEG-Clean-Tools) - 
-[Paper](https://doi.org/10.3389/fninf.2015.00016)
 
 ### AutoReject
 
@@ -192,16 +225,26 @@ AutoReject is a tool for pre-processing M/EEG data, but algorithmically determin
 [Github](https://github.com/autoreject/autoreject) - 
 [Paper](https://doi.org/10.1016/j.neuroimage.2017.06.030)
 
-### LIMO
+### PREP Pipeline (Standardized EEG pre-processing)
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-LIMO is a tool for Linear Modelling of EEG data, with EEGLab. 
+The PREP pipeline is a standardized processing tool for EEG data, using EEGLab. 
 
-[HomePage](https://github.com/LIMO-EEG-Toolbox/limo_eeg/wiki) - 
-[Github](https://github.com/LIMO-EEG-Toolbox/limo_eeg) - 
-[Paper](https://doi.org/10.1155/2011/831409)
+[HomePage](http://vislab.github.io/EEG-Clean-Tools/) - 
+[Github](https://github.com/VisLab/EEG-Clean-Tools) - 
+[Paper](https://doi.org/10.3389/fninf.2015.00016)
+
+### ADJUST
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
+
+ADJUST is an automatic artifact identification and removal tool, using EEGLab. 
+
+[HomePage](https://www.nitrc.org/projects/adjust/) - 
+[Paper](https://doi.org/10.1111/j.1469-8986.2010.01061.x)
 
 ### ERPlab
 
@@ -213,6 +256,35 @@ ERPLab is a tool for event-related potential (ERP) analysis of EEG data, with EE
 [HomePage](https://erpinfo.org/erplab) - 
 [Github](https://github.com/lucklab/erplab) - 
 [Paper](https://doi.org/10.3389/fnhum.2014.00213)
+
+### LIMO - Linear Modelling
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
+
+LIMO is a tool for Linear Modelling of EEG data, with EEGLab. 
+
+[HomePage](https://github.com/LIMO-EEG-Toolbox/limo_eeg/wiki) - 
+[Github](https://github.com/LIMO-EEG-Toolbox/limo_eeg) - 
+[Paper](https://doi.org/10.1155/2011/831409)
+
+### SIFT - Source Information Flow Toolbox
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
+
+The Source Information Flow Toolbox (SIFT) is a tool for causality and information flow measures, with EEGLab. 
+
+[HomePage](https://sccn.ucsd.edu/wiki/SIFT)
+
+### MPT - Measure Projection Toolbox
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
+
+The Measure Projection Toolbox (MPT) is a tool for probabilistic multi-subject EEG independent component analysis, with EEGLab. 
+
+[HomePage](https://sccn.ucsd.edu/wiki/MPT)
 
 ## Tutorials and/or Lab or Project Specific Code
 
