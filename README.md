@@ -2,6 +2,8 @@
 
 This is a list of openly available software and code for working with electrophysiological data, focused mainly on local field potential (LFP) type measurements from humans, specifically EEG, MEG, and ECoG/iEEG. This list is primarily maintained by [Tom Donoghue](https://github.com/TomDonoghue).
 
+A companion list of open data is available [here](https://github.com/voytekresearch/OpenData).
+
 ## Overview
 
 The goal here is to list re-usable tools for working with the specified data, and is not generally focused on code that is avaialable for specific analysis on particular datasets (though these may be included where they are licensed for re-use, and are the best available starting point for a particular use case). 
