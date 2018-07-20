@@ -67,7 +67,7 @@ EEGLab is a general purpose tool for processing, analyzing and visualizing EEG d
 [HomePage](https://wonambi-python.github.io) - 
 [Github](https://github.com/wonambi-python/wonambi)
 
-EEGLab is a general purpose tool for processing, analyzing and visualizing EEG data.
+Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis. 
 
 ### NutMEG
 
