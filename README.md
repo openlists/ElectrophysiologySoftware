@@ -161,7 +161,8 @@ Phase Opposition is a collection of functions for calculating phase opposition m
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-[Github](https://github.com/forrestbao/pyeeg)
+[Github](https://github.com/forrestbao/pyeeg) - 
+[Paper](https://doi.org/10.1155/2011/406391)
 
 PyEEG includes some implementations of information theoretic and complexity related measures for neural time series. 
 
