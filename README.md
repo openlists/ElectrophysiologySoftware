@@ -98,7 +98,7 @@ NeuroDSP is a package for calculating a broad range of measures on neural time s
 
 Note: NeuroDSP is a tool developed by the VoytekLab. 
 
-![Github](https://github.com/voytekresearch/neurodsp)
+[Github](https://github.com/voytekresearch/neurodsp)
 
 ### FOOOF
 
@@ -108,8 +108,8 @@ FOOOF is a package for parameterizing neural power spectra.
 
 Note: FOOOF is a tool developed by the VoytekLab. 
 
-![Github](https://github.com/voytekresearch/fooof) - 
-![Paper](https://doi.org/10.1101/299859)
+[Github](https://github.com/voytekresearch/fooof) - 
+[Paper](https://doi.org/10.1101/299859)
 
 ### Spectral Connectivity
 
