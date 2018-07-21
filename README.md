@@ -118,7 +118,7 @@ EEG.jl is an EEG processing library.
 
 ### CarTool
 
-![Language](https://img.shields.io/badge/Language-C++-green.svg)
+![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
 
 CarTool is an EEG analysis toolbox.
 
@@ -159,7 +159,7 @@ Spectral connectivity is a package including a group of functional connectivity 
 
 ### OpenMEEG
 
-![Language](https://img.shields.io/badge/Language-C++-green.svg)
+![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
 
 OpemMEEG is a package for solving forward problems for EEG & MEG data.
 
