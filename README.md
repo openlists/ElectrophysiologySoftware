@@ -60,6 +60,15 @@ EEGLab is a general purpose tool for processing, analyzing and visualizing EEG d
 [HomePage](https://sccn.ucsd.edu/eeglab/index.php) - 
 [Paper](https://doi.org/10.1016/j.jneumeth.2003.10.009)
 
+### SPM
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
+
+SPM is a general purpose toolbox for neuroimaging, that includes support for processing M/EEG data. 
+
+[HomePage](https://www.fil.ion.ucl.ac.uk/spm/)
+
 ### Wonambi
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
@@ -97,6 +106,15 @@ EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG
 
 [HomePage](https://craddm.github.io/eegUtils/) - 
 [Github](https://github.com/craddm/eegUtils)
+
+### EEG.jl
+
+![Language](https://img.shields.io/badge/Language-Julia-green.svg)
+
+EEG.jl is an EEG processing library. 
+
+[HomePage](https://eegjl.readthedocs.io/en/latest/)
+[Github](https://github.com/rob-luke/EEG.jl)
 
 ### CarTool
 
@@ -211,6 +229,34 @@ HERMES is tool for estimating connectivity measures between M/EEG signals.
 A collection of tools for analyzing ECoG data. 
 
 [Github](https://github.com/choldgraf/ecogtools)
+
+### SEREEGA - Simualating Event-Related EEG Activity
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+SEREEGA is a package for simulating synthetic data that mimic event-related EEG activity. 
+
+[Github](https://github.com/lrkrol/SEREEGA) - 
+[Paper](https://doi.org/10.1101/326066)
+
+### UNFOLD
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+Unfold is a tool for deconvolving overlapping EEG signals and for non-linear modelling. 
+
+[HomePage](https://www.unfoldtoolbox.org) -
+[Github](https://github.com/unfoldtoolbox/unfold) - 
+[Paper](https://doi.org/10.1101/360156)
+
+### ept-TFCE
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method. 
+
+[Github](https://github.com/Mensen/ept_TFCE-matlab)
+[Paper](https://doi.org/10.1016/j.neuroimage.2012.10.027)
 
 ## PlugIns
 
