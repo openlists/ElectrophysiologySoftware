@@ -113,7 +113,7 @@ EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG
 
 EEG.jl is an EEG processing library. 
 
-[HomePage](https://eegjl.readthedocs.io/en/latest/)
+[HomePage](https://eegjl.readthedocs.io/en/latest/) - 
 [Github](https://github.com/rob-luke/EEG.jl)
 
 ### CarTool
@@ -155,7 +155,7 @@ Note: FOOOF is a tool developed by the VoytekLab.
 Spectral connectivity is a package including a group of functional connectivity and coherence related measures.
 
 [HomePage](http://spectral-connectivity.readthedocs.io/en/latest/index.html) - 
-[Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity) - 
+[Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
 
 ### OpenMEEG
 
@@ -174,7 +174,16 @@ OpemMEEG is a package for solving forward problems for EEG & MEG data.
 [HomePage](https://pactools.github.io) - 
 [Github](https://github.com/pactools/pactools)
 
-PACTools is a package for calculating phase-amplitude coupling measures in neural time series. 
+PACTools is a package for calculating phase-amplitude coupling measures in neural time series.
+
+### Tensor PAC
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+[HomePage](https://etiennecmb.github.io/tensorpac/) - 
+[Github](https://github.com/EtienneCmb/tensorpac)
+
+Tensor PAC is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing. 
 
 ### restingIAF
 
@@ -257,6 +266,16 @@ A tool for statistical analysis of already pre-processed M/EEG data, focused mai
 
 [Github](https://github.com/Mensen/ept_TFCE-matlab)
 [Paper](https://doi.org/10.1016/j.neuroimage.2012.10.027)
+
+### ERP Reliability Analysis (ERA)
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+ERA is a tool for calculating reliability estimates for ERP data.
+
+[HomePage](http://peterclayson.com/era-toolbox/) - 
+[Github](https://github.com/peclayson/ERA_Toolbox) -
+[Paper](https://doi.org/10.1016/j.ijpsycho.2016.10.012)
 
 ## PlugIns
 
