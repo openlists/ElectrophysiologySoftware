@@ -171,19 +171,19 @@ OpemMEEG is a package for solving forward problems for EEG & MEG data.
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
+PACTools is a package for calculating phase-amplitude coupling measures in neural time series.
+
 [HomePage](https://pactools.github.io) - 
 [Github](https://github.com/pactools/pactools)
-
-PACTools is a package for calculating phase-amplitude coupling measures in neural time series.
 
 ### Tensor PAC
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
+Tensor PAC is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing. 
+
 [HomePage](https://etiennecmb.github.io/tensorpac/) - 
 [Github](https://github.com/EtienneCmb/tensorpac)
-
-Tensor PAC is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing. 
 
 ### restingIAF
 
@@ -219,7 +219,7 @@ PyEEG includes some implementations of information theoretic and complexity rela
 The Amsterdam Decoding and Modeling Toolbox does encoding and decoding model analysis on M/EEG data. 
 
 [Github](https://github.com/fahrenfort/ADAM) - 
-[Paper](https://doi.org/10.1007/s12021-013-9186-1
+[Paper](https://doi.org/10.1007/s12021-013-9186-1)
 
 ### HERMES
 
