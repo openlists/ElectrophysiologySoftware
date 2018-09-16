@@ -33,7 +33,7 @@ MNE is a general purpose tool for processing, analyzing and visualizing M/EEG da
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
-FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG data. 
+FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG and iEEG/ECoG data. 
 
 [HomePage](http://www.fieldtriptoolbox.org) - 
 [Github](https://github.com/fieldtrip/fieldtrip) - 
