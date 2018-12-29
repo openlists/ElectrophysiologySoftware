@@ -264,7 +264,7 @@ Unfold is a tool for deconvolving overlapping EEG signals and for non-linear mod
 
 A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method. 
 
-[Github](https://github.com/Mensen/ept_TFCE-matlab)
+[Github](https://github.com/Mensen/ept_TFCE-matlab) -
 [Paper](https://doi.org/10.1016/j.neuroimage.2012.10.027)
 
 ### ERP Reliability Analysis (ERA)
@@ -276,6 +276,23 @@ ERA is a tool for calculating reliability estimates for ERP data.
 [HomePage](http://peterclayson.com/era-toolbox/) - 
 [Github](https://github.com/peclayson/ERA_Toolbox) -
 [Paper](https://doi.org/10.1016/j.ijpsycho.2016.10.012)
+
+### SynchSqueezing
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+SynchroSqueezing is a tool for time-frequency and time-scale analyses. 
+
+[Github](https://github.com/ebrevdo/synchrosqueezing)
+
+### AutoMagic
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+AutoMagic is a standardized toolbox for preprocessing EEG datasets. 
+
+[Github](https://github.com/methlabUZH/automagic) - 
+[Paper](https://doi.org/10.1101/460469)
 
 ## PlugIns
 
