@@ -1,16 +1,21 @@
 # Open Software for Human Electrophysiology
 
-This is a list of openly available software and code for working with electrophysiological data, focused mainly on local field potential (LFP) type measurements from humans, specifically EEG, MEG, and ECoG/iEEG. This list is primarily maintained by [Tom Donoghue](https://github.com/TomDonoghue).
+This is a list of openly available software and code for working with electrophysiological data.
 
-A companion list of open data is available [here](https://github.com/voytekresearch/OpenData).
+This list is focused local field potential (LFP) type measurements from humans, specifically EEG, MEG, and ECoG/iEEG. 
+
+This list is primarily maintained by [Tom Donoghue](https://github.com/TomDonoghue).
+
+## Table of Contents
+
+- [Overview](#overview)
+- [General Purpose Tools](#general-purpose-tools)
+- [Standalone Tools](#standalone-tools)
+- [Plugins](#plugins)
 
 ## Overview
 
-The goal here is to list re-usable tools for working with the specified data, and is not generally focused on code that is avaialable for specific analysis on particular datasets (though these may be included where they are licensed for re-use, and are the best available starting point for a particular use case). 
-
-This list is curated by the VoytekLab, but most of the code / tools indexed here are from external sources (our tools will be explicitly noted). We have not necessarily tried all of these tools, and offer no general endorsement of which to use.
-
-When known, tools will be specified as having a graphic user interface (GUI) and/or if they are a plug-in for a general purpose library. 
+The goal here is to list re-usable tools for working with the specified data, and is not generally focused on code that is avaialable for specific analysis on particular datasets (though these may be included where they are licensed for re-use, and are the best available starting point for a particular use case). Tools are listed for findabilitiy, and being included is not intended as an endorsement of which to use.
 
 By 'open', here we mean that source code is provided and is released with a permissive license. Commercial products are not listed here. Be sure to double check the license before using / modifying linked code. Note that some tools may require non-open dependencies (for example, Matlab tools are listed, but are not fully open). 
 
@@ -125,7 +130,9 @@ CarTool is an EEG analysis toolbox.
 [HomePage](https://sites.google.com/site/cartoolcommunity/) - 
 [Paper](https://doi.org/10.1155/2011/813870)
 
-## Standalone Tools - Specific Purposes
+## Standalone Tools
+
+The following are standalone tools, independent of general software platforms, for specific purposes. 
 
 ### NeuroDSP
 
@@ -133,9 +140,8 @@ CarTool is an EEG analysis toolbox.
 
 NeuroDSP is a package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses. 
 
-Note: NeuroDSP is a tool developed by the VoytekLab. 
-
-[Github](https://github.com/voytekresearch/neurodsp)
+[Github](https://github.com/neurodsp-tools/neurodsp) -
+[Paper](https://doi.org/10.21105/joss.01272)
 
 ### FOOOF
 
@@ -143,10 +149,17 @@ Note: NeuroDSP is a tool developed by the VoytekLab.
 
 FOOOF is a package for parameterizing neural power spectra. 
 
-Note: FOOOF is a tool developed by the VoytekLab. 
-
-[Github](https://github.com/voytekresearch/fooof) - 
+[Github](https://github.com/fooof-tools/fooof) - 
 [Paper](https://doi.org/10.1101/299859)
+
+### ByCycle
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+Bycycle is a tool for cycle-by-bycle analyses of neural oscillations.
+
+[Github](https://github.com/bycycle-tools/bycycle) - 
+[Paper](https://doi.org/10.1152/jn.00273.2019)
 
 ### Spectral Connectivity
 
@@ -294,9 +307,9 @@ AutoMagic is a standardized toolbox for preprocessing EEG datasets.
 [Github](https://github.com/methlabUZH/automagic) - 
 [Paper](https://doi.org/10.1101/460469)
 
-## PlugIns
+## Plugins
 
-The following are some plug-ins, designed primary for use with one of the aforementioned general purpose tools. 
+The following are some plugins, designed primary for use with one of the aforementioned general purpose tools. 
 
 ### AutoReject
 
@@ -308,6 +321,17 @@ AutoReject is a tool for pre-processing M/EEG data, but algorithmically determin
 [HomePage](http://autoreject.github.io) - 
 [Github](https://github.com/autoreject/autoreject) - 
 [Paper](https://doi.org/10.1016/j.neuroimage.2017.06.030)
+
+### MNE-BIDS
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+![PlugIn](https://img.shields.io/badge/PlugIn-MNE-blue.svg)
+
+MNE-BIDS is a tool for creating [BIDS](https://bids.neuroimaging.io/) compatible datasets with MNE.
+
+[HomePage](https://mne.tools/mne-bids/) - 
+[Github](https://github.com/mne-tools/mne-bids) - 
+[Paper](https://doi.org/10.21105/joss.01896)
 
 ### PREP Pipeline (Standardized EEG pre-processing)
 
@@ -369,24 +393,3 @@ The Source Information Flow Toolbox (SIFT) is a tool for causality and informati
 The Measure Projection Toolbox (MPT) is a tool for probabilistic multi-subject EEG independent component analysis, with EEGLab. 
 
 [HomePage](https://sccn.ucsd.edu/wiki/MPT)
-
-## Tutorials and/or Lab or Project Specific Code
-
-The following are known tutorials that may be useful to start with particular analyses, and/or other known code from labs or projects that may be useful and re-usable. 
-
-### Inverted Encoding Models
-
-![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
-
-This repository includes tutorials for using inverted encoding models (IEM), including with EEG. 
-
-[Github](https://github.com/tommysprague/IEM-tutorial)
-
-### Encoding / Decoding Code & Tutorials for Electrophysiology
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-
-This repository includes tutorials for using encoding and decoding models on electrophysiological data. 
-
-[Github](https://github.com/choldgraf/paper-encoding_decoding_electrophysiology) - 
-[Paper](https://doi.org/10.3389/fnsys.2017.00061)
