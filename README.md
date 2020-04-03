@@ -1,10 +1,6 @@
 # Open Software for Human Electrophysiology
 
-This is a list of openly available software and code for working with electrophysiological data.
-
-This list is focused local field potential (LFP) type measurements from humans, specifically EEG, MEG, and ECoG/iEEG. 
-
-This list is primarily maintained by [Tom Donoghue](https://github.com/TomDonoghue).
+This is a list of openly available software and code for working with electrophysiological data, particularly for datatypes such as EEG, MEG, ECoG/iEEG, and LFP. 
 
 ## Table of Contents
 
@@ -15,9 +11,9 @@ This list is primarily maintained by [Tom Donoghue](https://github.com/TomDonogh
 
 ## Overview
 
-The goal here is to list re-usable tools for working with the specified data, and is not generally focused on code that is avaialable for specific analysis on particular datasets (though these may be included where they are licensed for re-use, and are the best available starting point for a particular use case). Tools are listed for findabilitiy, and being included is not intended as an endorsement of which to use.
+The goal here is to list re-usable tools for working with the specified data, and is not generally focused on code that is available for specific analysis on particular datasets (though these may be included where they are licensed for re-use, and are the best available starting point for a particular use case).
 
-By 'open', here we mean that source code is provided and is released with a permissive license. Commercial products are not listed here. Be sure to double check the license before using / modifying linked code. Note that some tools may require non-open dependencies (for example, Matlab tools are listed, but are not fully open). 
+By 'open', here we mean that source code is provided and is released with a permissive license. Commercial products are not listed. Be sure to double check the license before using / modifying linked code. Note that some tools may require non-open dependencies (for example, Matlab tools are listed, but are not fully open). 
 
 ## General Purpose Tools
 
@@ -32,6 +28,22 @@ MNE is a general purpose tool for processing, analyzing and visualizing M/EEG da
 [HomePage](http://martinos.org/mne/stable/index.html) - 
 [Github](https://github.com/mne-tools/mne-python) - 
 [Paper](https://doi.org/10.1016/j.neuroimage.2013.10.027)
+
+### Neural Ensemble Tools
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+[NeuralEmsemble](http://neuralensemble.org/), an initiative for open-source software in neuroscience, include a set of tools that comprise a platform for managing and analyzing electrophysiology data. 
+
+Neo: for representing electrophysiology data, and reading neurophysiological file formats.
+
+[HomePage](neo.readthedocs.io/en/latest/) -
+[Github](https://github.com/NeuralEnsemble/python-neo)
+
+Elephant: for analyzing electrophysiological data.
+
+[HomePage](http://neuralensemble.org/elephant/) -
+[Github](https://github.com/NeuralEnsemble/elephant)
 
 ### FieldTrip
 
@@ -269,7 +281,7 @@ Unfold is a tool for deconvolving overlapping EEG signals and for non-linear mod
 
 [HomePage](https://www.unfoldtoolbox.org) -
 [Github](https://github.com/unfoldtoolbox/unfold) - 
-[Paper](https://doi.org/10.1101/360156)
+[Paper](https://doi.org/10.7717/peerj.7838)
 
 ### ept-TFCE
 
@@ -393,3 +405,7 @@ The Source Information Flow Toolbox (SIFT) is a tool for causality and informati
 The Measure Projection Toolbox (MPT) is a tool for probabilistic multi-subject EEG independent component analysis, with EEGLab. 
 
 [HomePage](https://sccn.ucsd.edu/wiki/MPT)
+
+## Other Software Tools Lists
+
+The [Physionet](https://physionet.org/) project maintains a [list of software](https://physionet.org/about/software/) available in the PhysioToolkit, which includes some software that can be used with electrophysiology data. 
