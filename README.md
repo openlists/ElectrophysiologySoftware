@@ -37,7 +37,7 @@ MNE is a general purpose tool for processing, analyzing and visualizing M/EEG da
 
 Neo: for representing electrophysiology data, and reading neurophysiological file formats.
 
-[HomePage](neo.readthedocs.io/en/latest/) -
+[HomePage](https://neo.readthedocs.io/en/latest/) -
 [Github](https://github.com/NeuralEnsemble/python-neo)
 
 Elephant: for analyzing electrophysiological data.
