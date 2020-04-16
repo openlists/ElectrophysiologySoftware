@@ -45,6 +45,25 @@ Elephant: for analyzing electrophysiological data.
 [HomePage](https://neuralensemble.org/elephant/) -
 [Github](https://github.com/NeuralEnsemble/elephant)
 
+### Wonambi
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
+
+Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis.
+
+[HomePage](https://wonambi-python.github.io) -
+[Github](https://github.com/wonambi-python/wonambi)
+
+### NeuroKit
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+NeuroKit is a tool for neurophysiological signal processing.
+
+[HomePage](https://neurokit.readthedocs.io/en/latest/) -
+[Github](https://github.com/neuropsychology/NeuroKit.py)
+
 ### FieldTrip
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
@@ -85,25 +104,6 @@ EEGLab is a general purpose tool for processing, analyzing and visualizing EEG d
 SPM is a general purpose toolbox for neuroimaging, that includes support for processing M/EEG data.
 
 [HomePage](https://www.fil.ion.ucl.ac.uk/spm/)
-
-### Wonambi
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
-
-Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis.
-
-[HomePage](https://wonambi-python.github.io) -
-[Github](https://github.com/wonambi-python/wonambi)
-
-### NeuroKit
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-
-NeuroKit is a tool for neurophysiological signal processing.
-
-[HomePage](https://neurokit.readthedocs.io/en/latest/) -
-[Github](https://github.com/neuropsychology/NeuroKit.py)
 
 ### NutMEG
 
@@ -191,16 +191,6 @@ Spectral connectivity is a package including a group of functional connectivity 
 [HomePage](https://spectral-connectivity.readthedocs.io/en/latest/index.html) -
 [Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
 
-### OpenMEEG
-
-![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
-
-OpemMEEG is a package for solving forward problems for EEG & MEG data.
-
-[HomePage](https://openmeeg.github.io) -
-[Github](https://github.com/openmeeg/openmeeg) -
-[Paper](https://doi.org/10.1186/1475-925X-9-45)
-
 ### PACTools
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
@@ -218,6 +208,32 @@ Tensor PAC is a tool for calculating phase-amplitude coupling measures, using te
 
 [HomePage](https://etiennecmb.github.io/tensorpac/) -
 [Github](https://github.com/EtienneCmb/tensorpac)
+
+### PyEEG
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+PyEEG includes some implementations of information theoretic and complexity related measures for neural time series.
+
+[Github](https://github.com/forrestbao/pyeeg) -
+[Paper](https://doi.org/10.1155/2011/406391)
+
+### ECoGTools
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+A collection of tools for analyzing ECoG data.
+
+[Github](https://github.com/choldgraf/ecogtools)
+
+### EELBrain
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+EELBrain is a tool for statistical analysis of M/EEG data
+
+[HomePage](https://eelbrain.readthedocs.io/en/stable/index.html) -
+[Github](https://github.com/christianbrodbeck/Eelbrain)
 
 ### restingIAF
 
@@ -237,15 +253,6 @@ Phase Opposition is a collection of functions for calculating phase opposition m
 [HomePage](http://www.cerco.ups-tlse.fr/~rufin/PhaseOppositionCode/) -
 [Paper](https://doi.org/10.3389/fnins.2016.00426)
 
-### PyEEG
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-
-PyEEG includes some implementations of information theoretic and complexity related measures for neural time series.
-
-[Github](https://github.com/forrestbao/pyeeg) -
-[Paper](https://doi.org/10.1155/2011/406391)
-
 ### ADAM - Amsterdam Decoding and Modeling Toolbox
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
@@ -264,23 +271,6 @@ HERMES is tool for estimating connectivity measures between M/EEG signals.
 [HomePage](http://hermes.ctb.upm.es) -
 [Github](https://github.com/guiomar/HERMES) -
 [Paper](https://doi.org/10.3389/fnins.2018.00368)
-
-### ECoGTools
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-
-A collection of tools for analyzing ECoG data.
-
-[Github](https://github.com/choldgraf/ecogtools)
-
-### EELBrain
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-
-EELBrain is a tool for statistical analysis of M/EEG data
-
-[HomePage](https://eelbrain.readthedocs.io/en/stable/index.html) -
-[Github](https://github.com/christianbrodbeck/Eelbrain)
 
 ### SEREEGA - Simulating Event-Related EEG Activity
 
@@ -336,6 +326,26 @@ AutoMagic is a standardized toolbox for preprocessing EEG datasets.
 
 [Github](https://github.com/methlabUZH/automagic) -
 [Paper](https://doi.org/10.1101/460469)
+
+### Multivariate Granger Causality Toolbox (MVGC)
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+The MVGC toolbox is designed to run Granger-causal analysis on multivariate time-series data.
+
+[HomePage](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html#3) - 
+[Code](https://www.sussex.ac.uk/sackler/mvgc/) -
+[Paper](https://doi.org/10.1016/j.jneumeth.2013.10.018)
+
+### OpenMEEG
+
+![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
+
+OpemMEEG is a package for solving forward problems for EEG & MEG data.
+
+[HomePage](https://openmeeg.github.io) -
+[Github](https://github.com/openmeeg/openmeeg) -
+[Paper](https://doi.org/10.1186/1475-925X-9-45)
 
 ## Plugins
 
