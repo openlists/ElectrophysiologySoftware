@@ -1,6 +1,6 @@
 # Open Software for Human Electrophysiology
 
-This is a list of openly available software and code for working with electrophysiological data, particularly for EEG, MEG, ECoG/iEEG, and LFP data.
+This is a list of openly available software and code for working with electrophysiological data, including EEG, MEG, ECoG/iEEG, and LFP.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This is a list of openly available software and code for working with electrophy
 
 ## Overview
 
-The goal here is to list re-usable tools for working with the specified data, and is not generally focused on code that is available for specific analysis on particular datasets (though these may be included where they are licensed for re-use, and are the best available starting point for a particular use case).
+This list is focused on re-usable tools for working with electrophysioligical data. Generally, this does not include code that is available for specific analysis on particular datasets (though these may be included where they are potentially useful for and licensed for re-use).
 
 By 'open', here we mean that source code is provided and is released with a permissive license. Commercial products are not listed. Be sure to double check the license before using / modifying linked code. Note that some tools may require non-open dependencies (for example, Matlab tools are listed, but are not fully open).
 
@@ -23,7 +23,7 @@ The following are general purpose platforms, with functionality including: loadi
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-MNE is a general purpose tool for processing, analyzing and visualizing M/EEG data.
+`MNE` is a general purpose tool for processing, analyzing, and visualizing M/EEG data.
 
 [HomePage](https://martinos.org/mne/stable/index.html) -
 [Github](https://github.com/mne-tools/mne-python) -
@@ -33,14 +33,14 @@ MNE is a general purpose tool for processing, analyzing and visualizing M/EEG da
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-[Neural Ensemble](https://neuralensemble.org/), an initiative for open-source software in neuroscience, includes a set of tools that comprise a platform for managing and analyzing electrophysiology data.
+[Neural Ensemble](https://neuralensemble.org/) is an initiative for open-source software in neuroscience and includes a set of tools for managing and analyzing electrophysiology data.
 
-Neo: for representing electrophysiology data, and reading neurophysiological file formats.
+`neo` is a tool for representing electrophysiology data, and reading neurophysiological file formats.
 
 [HomePage](https://neo.readthedocs.io/en/latest/) -
 [Github](https://github.com/NeuralEnsemble/python-neo)
 
-Elephant: for analyzing electrophysiological data.
+`elephant` is a tool for analyzing electrophysiological data.
 
 [HomePage](https://neuralensemble.org/elephant/) -
 [Github](https://github.com/NeuralEnsemble/elephant)
@@ -50,26 +50,26 @@ Elephant: for analyzing electrophysiological data.
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
-Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis.
+`Wonambi` is a general purpose tool for processing, analyzing, and visualizing EEG data, including specific tools focused on sleep scoring and analysis.
 
 [HomePage](https://wonambi-python.github.io) -
 [Github](https://github.com/wonambi-python/wonambi)
 
-### NeuroKit
+### NeuroKit2
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-NeuroKit is a tool for neurophysiological signal processing.
+`NeuroKit2` is a tool for neurophysiological signal processing.
 
-[HomePage](https://neurokit.readthedocs.io/en/latest/) -
-[Github](https://github.com/neuropsychology/NeuroKit.py)
+[HomePage](https://neurokit2.readthedocs.io/en/latest/) -
+[Github](https://github.com/neuropsychology/NeuroKit)
 
 ### FieldTrip
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
-FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG and iEEG/ECoG data.
+`FieldTrip` is a general purpose tool for processing, analyzing, and visualizing M/EEG and iEEG/ECoG data.
 
 [HomePage](http://www.fieldtriptoolbox.org) -
 [Github](https://github.com/fieldtrip/fieldtrip) -
@@ -80,7 +80,7 @@ FieldTrip is a general purpose tool for processing, analyzing and visualizing M/
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
-BrainStorm is a general purpose tool for processing, analyzing and visualizing focused primarily on MEG data, but includes support for EEG & ECoG data.
+`BrainStorm` is a general purpose tool for processing, analyzing and visualizing focused primarily on MEG data, with additional support for EEG & ECoG data.
 
 [HomePage](https://neuroimage.usc.edu/brainstorm/) -
 [Github](https://github.com/brainstorm-tools/brainstorm3) -
@@ -91,7 +91,7 @@ BrainStorm is a general purpose tool for processing, analyzing and visualizing f
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
-EEGLab is a general purpose tool for processing, analyzing and visualizing EEG data.
+`EEGLab` is a general purpose tool for processing, analyzing, and visualizing EEG data.
 
 [HomePage](https://sccn.ucsd.edu/eeglab/index.php) -
 [Paper](https://doi.org/10.1016/j.jneumeth.2003.10.009)
@@ -101,7 +101,7 @@ EEGLab is a general purpose tool for processing, analyzing and visualizing EEG d
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![Language](https://img.shields.io/badge/GUI-yes-lightgrey.svg)
 
-SPM is a general purpose toolbox for neuroimaging, that includes support for processing M/EEG data.
+`SPM` is a general purpose toolbox for neuroimaging, including support for processing M/EEG data.
 
 [HomePage](https://www.fil.ion.ucl.ac.uk/spm/)
 
@@ -109,7 +109,7 @@ SPM is a general purpose toolbox for neuroimaging, that includes support for pro
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-NutMEG is a general purpose tool for processing, analyzing and visualizing MEG data.
+`NutMEG` is a general purpose tool for processing, analyzing, and visualizing MEG data.
 
 [HomePage](https://nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage) -
 [Github](https://github.com/UCSFBiomagneticImagingLab/nutmeg) -
@@ -119,14 +119,14 @@ NutMEG is a general purpose tool for processing, analyzing and visualizing MEG d
 
 ![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
 
-EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG data.
+`EEGUtils` is a general purpose tool for processing, analyzing, and visualizing EEG data.
 
 [HomePage](https://bnicenboim.github.io/eeguana/) -
 [Github](https://github.com/craddm/eegUtils)
 
 ### EEGuana
 
-EEGuana is a package for working with EEG data.
+`EEGuana` is a package for working with EEG data.
 
 ![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
 
@@ -137,7 +137,7 @@ EEGuana is a package for working with EEG data.
 
 ![Language](https://img.shields.io/badge/Language-Julia-green.svg)
 
-EEG.jl is an EEG processing library.
+`EEG.jl` is library for processing EEG data.
 
 [HomePage](https://eegjl.readthedocs.io/en/latest/) -
 [Github](https://github.com/rob-luke/EEG.jl)
@@ -146,7 +146,7 @@ EEG.jl is an EEG processing library.
 
 ![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
 
-CarTool is an EEG analysis toolbox.
+`CarTool` is an EEG analysis toolbox.
 
 [HomePage](https://sites.google.com/site/cartoolcommunity/) -
 [Paper](https://doi.org/10.1155/2011/813870)
@@ -159,8 +159,9 @@ The following are standalone tools, independent of general software platforms, f
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-NeuroDSP is a package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses.
+`NeuroDSP` is a package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses.
 
+[Homepage](https://neurodsp-tools.github.io/) - 
 [Github](https://github.com/neurodsp-tools/neurodsp) -
 [Paper](https://doi.org/10.21105/joss.01272)
 
@@ -168,52 +169,73 @@ NeuroDSP is a package for calculating a broad range of measures on neural time s
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-FOOOF is a package for parameterizing neural power spectra.
+`FOOOF` is a package for parameterizing neural power spectra.
 
+[Homepage](https://fooof-tools.github.io/) - 
 [Github](https://github.com/fooof-tools/fooof) -
-[Paper](https://doi.org/10.1101/299859)
+[Paper](https://doi.org/10.1038/s41593-020-00744-x)
 
 ### ByCycle
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-Bycycle is a tool for cycle-by-cycle analyses of neural oscillations.
+`ByCycle` is a tool for cycle-by-cycle analyses of neural oscillations.
 
+[Homepage](https://bycycle-tools.github.io/) - 
 [Github](https://github.com/bycycle-tools/bycycle) -
 [Paper](https://doi.org/10.1152/jn.00273.2019)
+
+### Frites: Framework for Information Theoretic analysis of Electrophysiological data and Statistics
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`FRITES` is package for computing information-theoretic measures on human and electrophysiological data.
+
+[Homepage](https://brainets.github.io/frites/) - 
+[Github](https://github.com/brainets/frites)
+
+### PTSA - Python Time Series Analysis
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`PTSA` is package for time series analysis in Python, focused on analyzing electrophysiological data.
+
+[Homepage](https://pennmem.github.io/ptsa_new/html/index.html) - 
+[Github](https://github.com/pennmem/ptsa_new)
 
 ### Spectral Connectivity
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-Spectral connectivity is a package including a group of functional connectivity and coherence related measures.
+`Spectral Connectivity` is a package including a group of functional connectivity and coherence related measures.
 
 [HomePage](https://spectral-connectivity.readthedocs.io/en/latest/index.html) -
 [Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
-
-### PACTools
-
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
-
-PACTools is a package for calculating phase-amplitude coupling measures in neural time series.
-
-[HomePage](https://pactools.github.io) -
-[Github](https://github.com/pactools/pactools)
 
 ### Tensor PAC
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-Tensor PAC is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.
+`TensorPAC` is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.
 
 [HomePage](https://etiennecmb.github.io/tensorpac/) -
-[Github](https://github.com/EtienneCmb/tensorpac)
+[Github](https://github.com/EtienneCmb/tensorpac) - 
+[Paper](https://doi.org/10.1371/journal.pcbi.1008302)
+
+### PACTools
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`PACTools` is a package for calculating phase-amplitude coupling measures in neural time series.
+
+[HomePage](https://pactools.github.io) -
+[Github](https://github.com/pactools/pactools)
 
 ### PyEEG
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-PyEEG includes some implementations of information theoretic and complexity related measures for neural time series.
+`PyEEG` includes some implementations of information theoretic and complexity related measures for neural time series.
 
 [Github](https://github.com/forrestbao/pyeeg) -
 [Paper](https://doi.org/10.1155/2011/406391)
@@ -222,7 +244,7 @@ PyEEG includes some implementations of information theoretic and complexity rela
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-A collection of tools for analyzing ECoG data.
+`ECoGTools` is a collection of tools for analyzing ECoG data.
 
 [Github](https://github.com/choldgraf/ecogtools)
 
@@ -230,7 +252,7 @@ A collection of tools for analyzing ECoG data.
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-EELBrain is a tool for statistical analysis of M/EEG data
+`EELBrain` is a tool for statistical analysis of M/EEG data
 
 [HomePage](https://eelbrain.readthedocs.io/en/stable/index.html) -
 [Github](https://github.com/christianbrodbeck/Eelbrain)
@@ -239,7 +261,7 @@ EELBrain is a tool for statistical analysis of M/EEG data
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-RestingIAF is a tool for estimating the peak individual alpha frequency.
+`RestingIAF` is a tool for estimating the peak individual alpha frequency.
 
 [Github](https://github.com/corcorana/restingIAF) -
 [Paper](https://doi.org/10.1111/psyp.13064)
@@ -257,7 +279,7 @@ Phase Opposition is a collection of functions for calculating phase opposition m
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-The Amsterdam Decoding and Modeling Toolbox does encoding and decoding model analysis on M/EEG data.
+`ADAM` is a tool for encoding and decoding model analysis on M/EEG data.
 
 [Github](https://github.com/fahrenfort/ADAM) -
 [Paper](https://doi.org/10.1007/s12021-013-9186-1)
@@ -266,7 +288,7 @@ The Amsterdam Decoding and Modeling Toolbox does encoding and decoding model ana
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-HERMES is tool for estimating connectivity measures between M/EEG signals.
+`HERMES` is tool for estimating connectivity measures between M/EEG signals.
 
 [HomePage](http://hermes.ctb.upm.es) -
 [Github](https://github.com/guiomar/HERMES) -
@@ -276,7 +298,7 @@ HERMES is tool for estimating connectivity measures between M/EEG signals.
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-SEREEGA is a package for simulating synthetic data that mimic event-related EEG activity.
+`SEREEGA` is a package for simulating synthetic data that mimic event-related EEG activity.
 
 [Github](https://github.com/lrkrol/SEREEGA) -
 [Paper](https://doi.org/10.1101/326066)
@@ -285,7 +307,7 @@ SEREEGA is a package for simulating synthetic data that mimic event-related EEG 
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-Unfold is a tool for deconvolving overlapping EEG signals and for non-linear modeling.
+`Unfold` is a tool for deconvolving overlapping EEG signals and for non-linear modeling.
 
 [HomePage](https://www.unfoldtoolbox.org) -
 [Github](https://github.com/unfoldtoolbox/unfold) -
@@ -295,7 +317,7 @@ Unfold is a tool for deconvolving overlapping EEG signals and for non-linear mod
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-A tool for statistical analysis of already preprocessed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method.
+`ept-TFCE` is a tool for statistical analysis of already preprocessed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method.
 
 [Github](https://github.com/Mensen/ept_TFCE-matlab) -
 [Paper](https://doi.org/10.1016/j.neuroimage.2012.10.027)
@@ -304,7 +326,7 @@ A tool for statistical analysis of already preprocessed M/EEG data, focused main
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-ERA is a tool for calculating reliability estimates for ERP data.
+`ERA` is a tool for calculating reliability estimates for ERP data.
 
 [HomePage](http://peterclayson.com/era-toolbox/) -
 [Github](https://github.com/peclayson/ERA_Toolbox) -
@@ -314,7 +336,7 @@ ERA is a tool for calculating reliability estimates for ERP data.
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-SynchroSqueezing is a tool for time-frequency and time-scale analyses.
+`SynchroSqueezing` is a tool for time-frequency and time-scale analyses.
 
 [Github](https://github.com/ebrevdo/synchrosqueezing)
 
@@ -322,7 +344,7 @@ SynchroSqueezing is a tool for time-frequency and time-scale analyses.
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-AutoMagic is a standardized toolbox for preprocessing EEG datasets.
+`AutoMagic` is a standardized toolbox for preprocessing EEG datasets.
 
 [Github](https://github.com/methlabUZH/automagic) -
 [Paper](https://doi.org/10.1101/460469)
@@ -331,7 +353,7 @@ AutoMagic is a standardized toolbox for preprocessing EEG datasets.
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 
-The MVGC toolbox is designed to run Granger-causal analysis on multivariate time-series data.
+The `MVGC` toolbox is designed to run Granger-causal analysis on multivariate time-series data.
 
 [HomePage](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html#3) - 
 [Code](https://www.sussex.ac.uk/sackler/mvgc/) -
@@ -341,7 +363,7 @@ The MVGC toolbox is designed to run Granger-causal analysis on multivariate time
 
 ![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
 
-OpemMEEG is a package for solving forward problems for EEG & MEG data.
+`OpemMEEG` is a package for solving forward problems for EEG & MEG data.
 
 [HomePage](https://openmeeg.github.io) -
 [Github](https://github.com/openmeeg/openmeeg) -
@@ -356,7 +378,7 @@ The following are plugins, designed primary for use with one of the aforemention
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-MNE-blue.svg)
 
-AutoReject is a tool for preprocessing M/EEG data, but algorithmically determining and applying rejection thresholds, with MNE.
+`AutoReject` is a tool for preprocessing M/EEG data, but algorithmically determining and applying rejection thresholds, with MNE.
 
 [HomePage](https://autoreject.github.io) -
 [Github](https://github.com/autoreject/autoreject) -
@@ -367,7 +389,7 @@ AutoReject is a tool for preprocessing M/EEG data, but algorithmically determini
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-MNE-blue.svg)
 
-MNE-BIDS is a tool for creating [BIDS](https://bids.neuroimaging.io/) compatible datasets with MNE.
+`MNE-BIDS` is a tool for creating [BIDS](https://bids.neuroimaging.io/) compatible datasets with MNE.
 
 [HomePage](https://mne.tools/mne-bids/) -
 [Github](https://github.com/mne-tools/mne-bids) -
@@ -378,7 +400,7 @@ MNE-BIDS is a tool for creating [BIDS](https://bids.neuroimaging.io/) compatible
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-The PREP pipeline is a standardized processing tool for EEG data, using EEGLab.
+The `PREP` pipeline is a standardized processing tool for EEG data, using EEGLab.
 
 [HomePage](https://vislab.github.io/EEG-Clean-Tools/) -
 [Github](https://github.com/VisLab/EEG-Clean-Tools) -
@@ -389,7 +411,7 @@ The PREP pipeline is a standardized processing tool for EEG data, using EEGLab.
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-ADJUST is an automatic artifact identification and removal tool, using EEGLab.
+`ADJUST` is an automatic artifact identification and removal tool, using EEGLab.
 
 [HomePage](https://www.nitrc.org/projects/adjust/) -
 [Paper](https://doi.org/10.1111/j.1469-8986.2010.01061.x)
@@ -399,7 +421,7 @@ ADJUST is an automatic artifact identification and removal tool, using EEGLab.
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-ERPLab is a tool for event-related potential (ERP) analysis of EEG data, with EEGLab.
+`ERPLab` is a tool for event-related potential (ERP) analysis of EEG data, with EEGLab.
 
 [HomePage](https://erpinfo.org/erplab) -
 [Github](https://github.com/lucklab/erplab) -
@@ -410,7 +432,7 @@ ERPLab is a tool for event-related potential (ERP) analysis of EEG data, with EE
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-LIMO is a tool for Linear Modeling of EEG data, with EEGLab.
+`LIMO` is a tool for Linear Modeling of EEG data, with EEGLab.
 
 [HomePage](https://github.com/LIMO-EEG-Toolbox/limo_eeg/wiki) -
 [Github](https://github.com/LIMO-EEG-Toolbox/limo_eeg) -
@@ -421,7 +443,7 @@ LIMO is a tool for Linear Modeling of EEG data, with EEGLab.
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-The Source Information Flow Toolbox (SIFT) is a tool for causality and information flow measures, with EEGLab.
+`SIFT` is a tool for causality and information flow measures, with EEGLab.
 
 [HomePage](https://sccn.ucsd.edu/wiki/SIFT)
 
@@ -430,9 +452,31 @@ The Source Information Flow Toolbox (SIFT) is a tool for causality and informati
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 ![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
 
-The Measure Projection Toolbox (MPT) is a tool for probabilistic multi-subject EEG independent component analysis, with EEGLab.
+`MPT` is a tool for probabilistic multi-subject EEG independent component analysis, with EEGLab.
 
 [HomePage](https://sccn.ucsd.edu/wiki/MPT)
+
+## Visualization Tools
+
+The following are tools focused on visualizing neural data.
+
+### Visbrain
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`Visbrain` is a tool for brain data visualization.
+
+[Homepage](http://visbrain.org/) - 
+[Github](https://github.com/EtienneCmb/visbrain)
+
+### PyCortex
+
+![Language](https://img.shields.io/badge/Language-javascript-yellow.svg)
+
+`PyCortex` is a tool for visualizing cortical surfaces.
+
+[Homepage](https://gallantlab.github.io/pycortex/) - 
+[Github](https://github.com/gallantlab/pycortex)
 
 ## Other Software Tools Lists
 
