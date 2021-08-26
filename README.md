@@ -185,6 +185,16 @@ The following are standalone tools, independent of general software platforms, f
 [Github](https://github.com/bycycle-tools/bycycle) -
 [Paper](https://doi.org/10.1152/jn.00273.2019)
 
+### IRASA
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+A Python implementation of the 'irregular resampling auto-spectral analysis'. 
+Note that this is a re-implementation of the algorithm described in the paper. 
+
+[Github](https://github.com/jrudoler/irasa) - 
+[Paper](https://doi.org/10.1007/s10548-015-0448-0)
+
 ### Frites: Framework for Information Theoretic analysis of Electrophysiological data and Statistics
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
@@ -193,6 +203,15 @@ The following are standalone tools, independent of general software platforms, f
 
 [Homepage](https://brainets.github.io/frites/) - 
 [Github](https://github.com/brainets/frites)
+
+### Antropy
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`Antropy` is a package for computing entropy and complexity measures on EEG data.
+
+[Homepage](https://raphaelvallat.com/antropy/build/html/index.html) - 
+[Github](https://github.com/raphaelvallat/antropy)
 
 ### PTSA - Python Time Series Analysis
 
@@ -207,10 +226,18 @@ The following are standalone tools, independent of general software platforms, f
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-`Spectral Connectivity` is a package including a group of functional connectivity and coherence related measures.
+`Spectral Connectivity` is a package for functional connectivity and coherence related measures.
 
 [HomePage](https://spectral-connectivity.readthedocs.io/en/latest/index.html) -
 [Github](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
+
+### Brain Connectivity Toolbox for Python
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+The `Brain Connectivity Toolbox` is a package for brain connectivity measures.
+
+[Github](https://github.com/aestrivex/bctpy)
 
 ### Tensor PAC
 
@@ -256,6 +283,15 @@ The following are standalone tools, independent of general software platforms, f
 
 [HomePage](https://eelbrain.readthedocs.io/en/stable/index.html) -
 [Github](https://github.com/christianbrodbeck/Eelbrain)
+
+### eBOSC
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+The 'extended Better OSCillation' method, or `eBOSC`, is a tool for oscillation detection and measurement.
+
+[Github](https://github.com/jkosciessa/eBOSC) - 
+[Paper](http://doi.org/10.1016/j.neuroimage.2019.116331)
 
 ### restingIAF
 
@@ -394,6 +430,15 @@ The following are plugins, designed primary for use with one of the aforemention
 [HomePage](https://mne.tools/mne-bids/) -
 [Github](https://github.com/mne-tools/mne-bids) -
 [Paper](https://doi.org/10.21105/joss.01896)
+
+### PyPREP
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`PrPREP` is an implementation of the 'Preprocessing Pipeline' (PREP) for EEG data, in Python and using MNE.
+
+[Homepage](https://pyprep.readthedocs.io/en/latest/) - 
+[Github](https://github.com/sappelhoff/pyprep)
 
 ### PREP Pipeline (Standardized EEG preprocessing)
 
