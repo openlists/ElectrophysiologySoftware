@@ -8,12 +8,17 @@ This is a list of openly available software and code for working with electrophy
 - [General Purpose Tools](#general-purpose-tools)
 - [Standalone Tools](#standalone-tools)
 - [Plugins](#plugins)
+- [Neuro Tools](#neuro-tools)
 
 ## Overview
 
 This list is focused on re-usable tools for working with electrophysioligical data. Generally, this does not include code that is available for specific analysis on particular datasets (though these may be included where they are potentially useful for and licensed for re-use).
 
 By 'open', here we mean that source code is provided and is released with a permissive license. Commercial products are not listed. Be sure to double check the license before using / modifying linked code. Note that some tools may require non-open dependencies (for example, Matlab tools are listed, but are not fully open).
+
+Other available lists of relevant tools include:
+- The [Physionet](https://physionet.org/) project maintains a [list of software](https://physionet.org/about/software/) available in the PhysioToolkit
+    -  This includes some software that can be used with electrophysiology data.
 
 ## General Purpose Tools
 
@@ -115,6 +120,15 @@ The following are general purpose platforms, with functionality including: loadi
 [Github](https://github.com/UCSFBiomagneticImagingLab/nutmeg) -
 [Paper](https://doi.org/10.1155/2011/758973)
 
+### Signaleeg
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+
+`Signaleeg` is a general purpose tool for processing and analyzing EEG data, with a focus on signal-data mining.
+
+[Code](https://caleta.udg.edu/git/eXiT_Research_Group/Signaleeg/src/branch/v1) - 
+[Paper](https://doi.org/10.1007/s12021-020-09507-2)
+
 ### EEGUtils
 
 ![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
@@ -165,11 +179,11 @@ The following are standalone tools, independent of general software platforms, f
 [Github](https://github.com/neurodsp-tools/neurodsp) -
 [Paper](https://doi.org/10.21105/joss.01272)
 
-### FOOOF
+### SpecParam (formerly 'fooof')
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-`FOOOF` is a package for parameterizing neural power spectra.
+`SpecParam` (formerly called `fooof`) is a package for parameterizing neural power spectra.
 
 [Homepage](https://fooof-tools.github.io/) - 
 [Github](https://github.com/fooof-tools/fooof) -
@@ -279,10 +293,38 @@ The `Brain Connectivity Toolbox` is a package for brain connectivity measures.
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 
-`EELBrain` is a tool for statistical analysis of M/EEG data
+`EELBrain` is a tool for statistical analysis of M/EEG data.
 
 [HomePage](https://eelbrain.readthedocs.io/en/stable/index.html) -
-[Github](https://github.com/christianbrodbeck/Eelbrain)
+[Github](https://github.com/christianbrodbeck/Eelbrain) -
+[Paper](https://www.biorxiv.org/content/10.1101/2021.08.01.454687v1)
+
+### YASA
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+'Yet another spindle algorithm' (`YASA`) is a package for analyzing polysomnograghy recordings.
+
+[HomePage](https://raphaelvallat.com/yasa/build/html/index.html) -
+[Github](https://github.com/raphaelvallat/yasa)
+
+### kCSD
+
+The `kCSD` tool implements kernel Current Source Density. 
+
+[HomePage](https://kcsd-python.readthedocs.io/en/latest/) - 
+[Github](https://github.com/Neuroinflab/kCSD-python) - 
+[Paper](https://www.biorxiv.org/content/10.1101/708511v1.abstract)
+
+### EMD
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+The `EMD` tool implements empirical mode decomposition and Hilbert-Huang spectral analyses.
+
+[HomePage](https://emd.readthedocs.io/) - 
+[Code](https://gitlab.com/emd-dev/emd) - 
+[Paper](http://doi.org/10.21105/joss.02977)
 
 ### eBOSC
 
@@ -501,9 +543,27 @@ The `PREP` pipeline is a standardized processing tool for EEG data, using EEGLab
 
 [HomePage](https://sccn.ucsd.edu/wiki/MPT)
 
-## Visualization Tools
+## Neuro Tools
 
-The following are tools focused on visualizing neural data.
+The following are broader purpose neuro-tools that could be used with electrophysiology data.
+
+### nibabel
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`nibabel` is a tool for read/write access to common neuroimaging file formats.
+
+[HomePage](https://nipy.org/nibabel/) - 
+[Github](https://github.com/nipy/nibabel)
+
+### nilearn
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`nilearn` is a tool for applying machine learning to neuroimaging data. 
+
+[HomePage](https://nilearn.github.io/) - 
+[Github](https://github.com/nilearn/nilearn)
 
 ### Visbrain
 
@@ -523,6 +583,22 @@ The following are tools focused on visualizing neural data.
 [Homepage](https://gallantlab.github.io/pycortex/) - 
 [Github](https://github.com/gallantlab/pycortex)
 
-## Other Software Tools Lists
+### BrainSpace 
 
-The [Physionet](https://physionet.org/) project maintains a [list of software](https://physionet.org/about/software/) available in the PhysioToolkit, which includes some software that can be used with electrophysiology data.
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`BrainSpace` is a tool for analyzing gradients in neuroimaging datasets.
+
+[HomePage](https://brainspace.readthedocs.io/en/latest/) - 
+[Github](https://github.com/MICA-MNI/BrainSpace) - 
+[Paper](https://doi.org/10.1038/s42003-020-0794-7)
+
+### neuromaps
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+`neuromaps` is a tool for comparing between brain maps. 
+
+[HomePage](https://netneurolab.github.io/neuromaps/) - 
+[Github](https://github.com/netneurolab/neuromaps) - 
+[Paper](https://www.biorxiv.org/content/10.1101/2022.01.06.475081v1)
