@@ -523,6 +523,17 @@ The `PREP` pipeline is a standardized pre-processing tool for EEG data, using EE
 [Github](https://github.com/VisLab/EEG-Clean-Tools) -
 [Paper](https://doi.org/10.3389/fninf.2015.00016)
 
+### RELAX
+
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+![PlugIn](https://img.shields.io/badge/PlugIn-EEGLab-orange.svg)
+
+`RELAX` (Reduction of Electroencephalographic Artifacts) provides a fully automated method to clean EEG data.
+
+[Github](https://github.com/NeilwBailey/RELAX) - 
+[Paper1](https://doi.org/10.1101/2022.03.08.483548) - 
+[Paper2](https://doi.org/10.1101/2022.03.08.483554)
+
 ### ADJUST
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
