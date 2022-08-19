@@ -208,6 +208,14 @@ The following are standalone tools, independent of general software platforms, f
 [Github](https://github.com/bycycle-tools/bycycle) -
 [Paper](https://doi.org/10.1152/jn.00273.2019)
 
+### pynapple
+
+Pynapple (Python Neural Analysis Package) is a lightweight, general purpose library for analyzing neurophysiological data, that includes some utilities for working with field data. 
+
+[Homepage](https://peyrachelab.github.io/pynapple/) - 
+[Github](https://github.com/PeyracheLab/pynapple)
+
+
 ### IRASA
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
