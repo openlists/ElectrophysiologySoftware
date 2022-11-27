@@ -149,12 +149,21 @@ The `BBCI` tool is collection of tools for online and offline analyses for brain
 
 ### EEGuana
 
-`EEGuana` is a package for working with EEG data.
-
 ![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
+
+`EEGuana` is a package for working with EEG data.
 
 [HomePage](https://craddm.github.io/eegUtils/) -
 [Github](https://github.com/bnicenboim/eeguana/tree/master/R)
+
+### RAVE
+
+![Language](https://img.shields.io/badge/Language-R-lightgrey.svg)
+
+R Analysis and Visualization of iEEG (RAVE) is a tool for analyzing intracranial EEG data. 
+
+[HomePage](https://openwetware.org/wiki/RAVE) -
+[Paper](https://doi.org/10.1016/j.neuroimage.2020.117341)
 
 ### EEG.jl
 
@@ -214,7 +223,6 @@ Pynapple (Python Neural Analysis Package) is a lightweight, general purpose libr
 
 [Homepage](https://peyrachelab.github.io/pynapple/) - 
 [Github](https://github.com/PeyracheLab/pynapple)
-
 
 ### IRASA
 
@@ -354,6 +362,16 @@ The `EMD` toolbox implements empirical mode decomposition and Hilbert-Huang spec
 [Code](https://gitlab.com/emd-dev/emd) -
 [Paper](http://doi.org/10.21105/joss.02977)
 
+### Xenon LFP Analysis Platform
+
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+
+Xenon is an interactive platform for analyzing LFP activity from multi-electrode array (MEA) recordings.
+
+[HomePage](https://xenon-lfp-analysis.readthedocs.io/en/latest/index.html) - 
+[Github](https://github.com/MicroBrew09/xenon-lfp-analysis) - 
+[Paper](https://doi.org/10.3389/fnins.2022.904931)
+
 ### eBOSC - extended Better OSCillation detector
 
 ![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
@@ -479,11 +497,20 @@ The `MVGC` toolbox is designed to run Granger-causal analysis on multivariate ti
 
 ![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
 
-`OpemMEEG` is a package for solving forward problems for EEG & MEG data.
+`OpenMEEG` is a package for solving forward problems for EEG & MEG data.
 
 [HomePage](https://openmeeg.github.io) -
 [Github](https://github.com/openmeeg/openmeeg) -
 [Paper](https://doi.org/10.1186/1475-925X-9-45)
+
+### fast Continuous Wavelet Transform 
+
+![Language](https://img.shields.io/badge/Language-C++-yellowgreen.svg)
+
+`fCWT` is a package for fast calculations of Continuous Wavelet Transforms.
+
+[Github](https://github.com/fastlib/fCWT) -
+[Paper](https://doi.org/10.1038/s43588-021-00183-z)
 
 ## Plugins
 
