@@ -66,7 +66,7 @@ The following are general purpose platforms, with functionality including: loadi
 
 `NeuroKit2` is a tool for neurophysiological signal processing.
 
-[HomePage](https://neurokit2.readthedocs.io/en/latest/) -
+[HomePage](https://neuropsychology.github.io/NeuroKit/) -
 [Github](https://github.com/neuropsychology/NeuroKit)
 
 ### FieldTrip
